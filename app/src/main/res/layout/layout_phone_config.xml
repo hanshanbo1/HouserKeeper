@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/tv_phone_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YESHEN"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal" />
+    <TextView
+        android:id="@+id/tv_phone_modle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="G750-T220 Android 4.4.4"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#000"
+        android:textSize="14sp"/>
+    <ProgressBar
+        android:id="@+id/pb_ram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="60"
+        android:progressDrawable="@drawable/progress_ram"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/tv_ram"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="已用内存：3.0G/4.0G"
+        android:textColor="#33ccff"
+        android:layout_gravity="right"/>
+    <Button
+        android:id="@+id/btn_clean"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="一键清理"
+        android:textColor="#fff"
+        android:background="@drawable/btn_selector_clean"
+        android:layout_marginTop="8dp"/>
+
+
+</LinearLayout>
